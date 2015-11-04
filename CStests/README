@@ -1,0 +1,33 @@
+# Dowload school tests files and school resutls
+# 1. unzip
+#       1. create sol (folder)
+#               1. copy all executables here
+#       2. create tests (folder)
+#               1. copy all test files here
+#  copy tests-results.sh to same folder
+#  run this script without cc
+# ./test-results.sh <exercise name>
+
+!!! ex1a.cc ex1b.cc ex1c.cc
+!!! need to be in one folder
+==============================
+/myfolder
+-tests-results.sh
+-ex1a.cc
+-ex1b.cc
+-ex1c.cc
+-/sol
+--ex1a
+--ex1b
+--ex1c
+-/tests
+--ex1a_test1.in
+--ex1b_test2.in
+--ex1c_test3.in
+
+==============================
+
+Examples:
+
+./tests-results.sh ex1a
+./tests-results.sh ex1b
