@@ -5,7 +5,7 @@
 
 1. Download school solution (Ex: ***ex1sol.tgz***)
 + Download school tests (Ex: ***ex1_fullTest.tgz***)
-+ Download this script (Ex: ***v2*** )
++ Download this script (Ex: ***v3/test-results-v3.sh*** )
 + Put them in same directory 
 + Run it.
 
