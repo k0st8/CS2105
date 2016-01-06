@@ -1,6 +1,6 @@
 ##This script is running test automatically
 ####Just get School solution and test files in the folder with test-results.sh
-###### New version of the script is already here! (v2)
+###### New version of the script is already here! (v3)
 
 
 1. Download school solution (Ex: ***ex1sol.tgz***)
@@ -14,12 +14,12 @@
 
 > NOTE: in case ***ex1a*** is in the same folder
 <pre>
-$ ./test-result.sh ex1a
+$ ./test-result-v3.sh ex1a
 </pre>
 
 >In case file ***ex1a*** is in other place... give path to it... /path/to/ex1a
 <pre>
-$ ./test-result.sh /path/to/ex1a
+$ ./test-result-v3.sh /path/to/ex1a
 </pre>
 
 > If there are any error you will see it, otherwise you will see date... have fun
