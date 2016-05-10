@@ -20,7 +20,7 @@ fi
 exists=`ls $TESTS/"$fileName"_test* 2> /dev/null | wc -l`
 if [ $exists -eq 0 ]; then
 	# Extract from files and move to folders
-	tar xzvf "$tarName"sol.tgz -C $SOL && tar xfvz "$tarName"_fullTests.tgz -C $TESTS
+	tar xzvf "$tarName"sol.tgz -C $SOL && tar xfvz "$tarName"*Tests.tgz -C $TESTS
 fi
 
 testFile=$( ls $TESTS/"$fileName"_test* )
