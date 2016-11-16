@@ -29,6 +29,7 @@ date
 if [ -e "$1.cc" ]; then
 
 	g++ -Wall "$dirName/$fileName".cc -o "$fileName"
+	chmod u+x "$fileName" # change user permissions for the file 
 
 	for i in $testFile;
 	do

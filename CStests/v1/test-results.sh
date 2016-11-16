@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# something to change
 for i in $(seq 1 3);
 do
 	g++ -Wall $1.cc -o $1 
