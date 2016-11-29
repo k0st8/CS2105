@@ -1,5 +1,5 @@
 ##This script is running test automatically
-####Just get School solution and test files in the same folder with test-results.sh
+####Just get School solution and test files in the same folder with test-results-v3.sh
 ###### New version of the script is already here! (v3)
 
 
